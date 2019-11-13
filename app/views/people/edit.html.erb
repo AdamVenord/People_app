@@ -1,0 +1,28 @@
+<h1>Edit Person</h1>
+<%= form_for @person do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :age %>
+  <%= f.text_field :age %>
+
+  <%= f.label :hair_color %>
+  <%= f.text_area :hair_color %>
+
+  <%= f.label :eye_color %>
+  <%= f.text_area :eye_color %>
+
+  <%= f.label :gender %>
+  <%= f.text_area :gender %>
+
+  <%= f.label :state_of_being %>
+  <%= f.text_area :state_of_being%>
+
+  <%= f.label :power_level %>
+  <%= f.text_area :power_level %>
+
+  <%= f.label :magical_abilitys %>
+  <%= f.text_area :magical_abilitys%>
+
+  <%= f.submit %>
+<% end %>

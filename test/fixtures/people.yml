@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  age: 1
+  hair_color: MyString
+  eye_color: MyString
+  gender: MyString
+  state_of_being: MyString
+  power_level: 1
+  magical_abilitys: MyString
+
+two:
+  name: MyString
+  age: 1
+  hair_color: MyString
+  eye_color: MyString
+  gender: MyString
+  state_of_being: MyString
+  power_level: 1
+  magical_abilitys: MyString
